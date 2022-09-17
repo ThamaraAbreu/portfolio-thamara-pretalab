@@ -5,7 +5,7 @@ outline: 0;
 }
 
 body{
-    font-family:'Roboto'
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 li{
@@ -20,7 +20,7 @@ li{
     padding: 8px;
     padding-bottom: 32px;
     padding-top: 32px;
-    background-color:rgba(41, 163, 245, 0.897);
+    background-color:rgba(30, 157, 241, 0.897);
 }
 
 .header-menu nav{
@@ -37,7 +37,7 @@ li{
 }
 
 .lista-menu li>a {
-color:rgb(255, 255, 255);
+color:rgb(4, 43, 150);
 font-size: 18px;
 text-decoration: inherit;
 }
@@ -45,7 +45,7 @@ text-decoration: inherit;
 .principal {
 height: 100vh;
 display:flex;
-background-color:#EAEAEA;
+background-color:#b6eafa;
 }
 
 .subcontainer-principal{
@@ -74,7 +74,7 @@ background-color:#EAEAEA;
 }
 
 .profissao{
-    color: rgb(138, 30, 209);
+    color: rgb(63, 143, 248);
     height: 60px;
     
 }
@@ -92,7 +92,7 @@ background-color:#EAEAEA;
 
 .topico-principal{
     font-size: 36px;
-    color: rgb(138, 30, 209);
+    color:rgb(4, 43, 150);
 }
 
 .lista-item{
@@ -102,25 +102,25 @@ background-color:#EAEAEA;
 .lista-titulo{
     margin-bottom: 5px;
     font-size: 22px; 
-    color: rgb(181, 23, 196);
+    color: rgb(63, 143, 248);
     font-weight: 700;
 }
 
 .lista-local{
     font-size: 18px;
-    color: rgb(38, 6, 78);
+    color: rgb(30, 38, 73);
 }
 
 .lista-descricao{
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px;
-    color: rgb(5, 18, 36);
+    color: rgb(13, 11, 27);
     font-weight: 300;
 }
 
 .formacao{
-    background-color: #fff;
+    background-color: rgb(173, 213, 250);
     display: flex;
     flex-direction: column;
 }
@@ -146,7 +146,7 @@ background-color:#EAEAEA;
 
 .footer{
     background-color: #5882f7;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: center;
 }
@@ -158,14 +158,14 @@ background-color:#EAEAEA;
 
 .links{
     text-decoration:none;
-    color: white;
+    color: rgb(1, 8, 75);
     margin-left: 8px;
 }
 
 .lista-footer li{
-    color: #FFFF;
+    color: rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
